@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %} Translating page{% endblock %}
+
+{% block content %}
+
+<form method="post" action="#">
+	<div>
+
+	 	<textarea  name="srt_text" rows="25" cols="100" style = "float: left; margin-left: 10px; padding-left: 2px;white-space: pre-wrap;" >{{text1}}</textarea>
+	 	
+		 <input type = "submit" name = "seg_bt" value="Segment" style="margin-left: 10px;margin-right: auto;align-content: center;position: relative; " >
+		 <input type="submit" name="un_seg" value ="Undo segmentation"style="margin-left: 10px; position: absolute; right: 47%;top:105px" >
+		 <input type = "submit" name = "tra_but" value="Translate" style="margin-left: 10px; position: absolute;top:300px;left: 50% ">
+
+		 <select name="lang_val" style="position: absolute; top:300px; left: 45%">
+		   <option value="ml">Malayalam</option>
+		   <option value="hi">Hindi</option>
+		   <option value="tl">Tamil</option>
+		   
+		 </select>
+
+	 	<textarea  name="translated_file" rows="25" cols= "100" style = "float: right;margin-right: 10px;padding-left: 2px">{{text2}}</textarea>
+	 	<input type = "submit" name = "dwld_srt" value = "Download Transalated sub" style ="float:right;margin-top:13.9%; margin-right: 20px" >
+	 	<input type = "submit" name = "proceed" value = "Proceed to generate audio" style ="float: right;margin-top: 13.5% margin-right20px">
+
+	</div>
+		
+</form>
+		
+
+
+{% endblock %}

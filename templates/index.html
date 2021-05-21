@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %} Home page{% endblock %}
+
+{% block content %}
+
+
+
+
+{% endblock %}
+
+
+{% block secondcontent %}
+
+<h1>{{file_msg}}</h1>
+
+<form method="post" action ="#" enctype="multipart/form-data">
+      <input type="file" name="file_uploaded">
+      <div>
+      	
+      	<input type = "radio" name =  "todo" value = "sg&mt">
+      	<label for ="sg&mt">For subtitle generation and machine translation</label></br>
+      	
+      	<input type = "radio" name = "todo" value = "sensor">
+      	<label for = "sensor">For sensoring the explicit audio in the video</label></br>
+      <div>	
+
+
+      <input type="submit" value="Upload">
+
+</form>
+
+
+
+{% endblock %}
+

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %} Editing Page{% endblock %}
+
+{% block content %}
+
+<form method="post" action = "#">
+
+
+	<!-- <textarea id="inputTextToSave" cols="80" rows="25"  >{{datastr}}</textarea>
+	 -->
+	<div class="form-outline mb-4">
+	 	<textarea class="form-control" name="inputTextToSave" rows="25">{{datastr}}</textarea>
+
+	</div>
+	<div align="center">
+		<input type = "submit" name = "button1" value = "Click to Punctutate">
+		<input type = "submit" name = "button2" value="Proceed" style = "padding-left: 10px;">
+	</div>
+
+
+</form>
+
+
+{{data2}}
+
+<!-- <textarea id="afterprocessing" cols="80" rows="25"  style ="float: right;margin-right: 50px"></textarea>
+</form>
+
+
+<input type="submit" onclick="displayOut()" value="Proceed>>>" style = "float: middle">
+
+
+
+
+
+<script type="text/javascript">
+
+    function displayOut() {
+        var input = document.getElementById("inputTextToSave").value;
+        var text2 = document.getElementById("afterprocessing");
+        text2.value = input;
+        if (input.length === 0) {
+            alert("Nothing to process");
+            return;
+        }
+      
+
+    }
+</script> -->
+{% endblock %}

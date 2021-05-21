@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %} Download the video{% endblock %}
+
+{% block content %}
+{{text}}
+<form method="post" action="#">
+	<div style="align-items: center;">
+	<input type = "submit" name = "vid" value = "Download video machine translation"  >
+	<input type = "submit" name = "tsub" value = "Download translated subtitle">
+	<input type = "submit" name="osub" value = "Download original sub">
+	
+ 	</div>
+</form>
+
+{% endblock %}

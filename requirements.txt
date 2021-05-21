@@ -1,0 +1,13 @@
+vosk 
+librosa 
+moviepy 
+gTTS 
+pydub 
+srt 
+pysrt 
+pytube 
+nltk 
+theano
+flask
+EasyNMT
+soundfile
