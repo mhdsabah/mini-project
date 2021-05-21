@@ -21,5 +21,17 @@ Still in development phase
 #### 4. Using pip
 `pip install -r requirements.txt`
 #### 5. Start the flask server 
-`python first.py`
+`python first.py`  
+  
+  
+  
+
+------------
+#####Common issues
+
+------------
+
+If there is 'windows file not found ' error , then you need to install ffmpeg. Use this link    [For installing ffmpeg](https://www.youtube.com/watch?v=qjtmgCb8NcE "For installing ffmpeg")
+
+
 
