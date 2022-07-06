@@ -1,7 +1,9 @@
-# Mini Project
+# Machine audio translation for single speaker videos.
 
 ## Description 
-Still in development phase
+This project is an application of speech recognition. Users can upload videos,not every kind of videos,paticular videos which has 
+single human speaker(like ted talks,speech or presentation) and  the web app will give output with translated 
+voice overs in their preffered language.
 
 
 
