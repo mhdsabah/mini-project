@@ -7,7 +7,7 @@ This project is an application of speech recognition. You will be able to get ou
 - Supports all recognisable language by vosk
 - Uses EasyNMT library for translating the textfile
 - Works offline 
-- Punctutator is used since output from VOSK does not has any punctuation 
+
 
 
 ------------
@@ -24,7 +24,8 @@ This project is an application of speech recognition. You will be able to get ou
 #### 3. Download following files and place it models folder
 [Vosk Model](https://alphacephei.com/vosk/models "Vosk Model") - Choose any English model(for better accuracy:: vosk-model-en-us-aspire-0.2)
 
-[Punctuator model](https://drive.google.com/drive/folders/0B7BsN5f2F1fZQnFsbzJ3TWxxMms "Punctuator model") - Download 'Demo-Europarl-EN.pcl'
+[Punctuator model](https://drive.google.com/drive/folders/0B7BsN5f2F1fZQnFsbzJ3TWxxMms "Punctuator model") - Download 'Demo-Europarl-EN.pcl' 
+for English language
 #### 4. Using pip
 `pip install -r requirements.txt`
 #### 5. Start the flask server 
